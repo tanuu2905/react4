@@ -1,0 +1,32 @@
+#header{
+    display : flex;
+    justify-content: space-between;
+    padding: 5px;
+    border : 1px solid black
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex ;
+}
+.nav-items > ul > li{
+    padding: 10px;
+}
+.card{
+    padding: 5px;
+    border: 2px solid black;
+    width: 30vh;
+    margin: 5px;
+    
+}
+
+.card > img{
+    width : 100% ;
+}
+
+.hotelcard{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ word-wrap:break-word ;
+
+}

@@ -1,0 +1,57 @@
+ 1. React is framework or library ?...js library
+ 2. what is emmet?
+ 3. react docs
+ 4. At the end of the day react element is an object 
+ 5. async and defer
+ 6. Bundelers
+ 7. webpack vs parcels vs vite
+ 8. parcel is a package to get package in project get package manager(npm/yarn)
+ 9. npm manages all the packages . we need npm in our project because we need lots of packages 
+    in our project . Our react app will not be build by just injecting react into our
+    web page
+ 10. after initializing npm we get "package.json"...it is an configuration which npm needs to run it self
+ 11. To get parcel into my app :-
+     ~ npm install -D parcel       { -D = dev dependencyy}
+
+ 11(a). suddenly pacakge-lock.json appears and parcel gets added as dev dependencies in 
+     pacakage.json
+
+ 11(b).  dependencies = my project depends on packages . we need lots of funtionalities in our
+         react app
+         dev dependencies = when we need any pacakage for dev environment then that pacakage is istalled under 
+         dev dependencies
+           "^2.8.2"  = caret 
+          "~2.8.2"  = tilde
+          "2.8.2"  = i just want this version dont want any updates
+
+12. Package-lock.json tells us which version of the library exactly we are using in our project in case 
+     if package gets upgraded
+     package-lock.json is important file it locks the verion of libraryy we are currently using 
+     never put package-lock.json in .gitignore 
+     hash is used  in package-lock.json to maintain the integrity
+
+
+13. node module :- whenever we install something it gets installed in node module . 
+      It is like DB of npm
+       put node module in .gitignore  its very heavyy
+      Package-lock.json has suficient info to recreate nodemodule
+
+14. adding react to project via cdn link is not a good practice install react , react-DOM package 
+    instead of cdn link 
+     npm install react    /  npm i react 
+     npm install react-dom/  npm i react-dom
+
+15. npx parcel index.html         {npx :- execute using npm}
+    and after running dis parcel give a server to us
+
+    what to put in git ignore 
+    all the things that can generate
+    1.nodemodule
+    2.dist
+    3.parcel-cache
+
+    package lock jason should not be
+
+    
+    
+ 

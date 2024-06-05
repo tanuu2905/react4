@@ -1,0 +1,11 @@
+1. shortify command  "npx parcel index.html"  using script tag 
+    present in package.json  {use "npm run start"/"npm  start" in terminals }
+1. shortify command  "npx parcel build index.html"  using script tag 
+    present in package.json  {use "npm run build"/"npm  build" in terminals }
+
+2. react reconciliation google search
+3. idea behind react is update html using js in abetter way
+
+  4. jsx is better way of writing react code 
+ jsx is html inside js (rong)
+   jsx is html like syntax inside js (right)

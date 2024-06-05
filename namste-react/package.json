@@ -1,0 +1,30 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "1st react project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanuu2905/reactproject1.git"
+  },
+  "author": "Tanu yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanuu2905/reactproject1/issues"
+  },
+  "homepage": "https://github.com/tanuu2905/reactproject1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
